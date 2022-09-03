@@ -1,0 +1,33 @@
+body{
+    background-color: lightblues;
+    text-align: center;
+}
+
+h1{
+    color: blueviolet;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+h1:hover{
+    color: aqua;
+    letter-spacing: 2px;
+}
+
+img{
+    width: 4cm;
+    border-radius: 50%;
+    box-shadow: 1px 1px 4px blueviolet;
+    padding: 5px;
+    background: white;
+    transition: 2s;
+    margin: 20px;
+    opacity: 75%;
+    cursor: pointer;
+}
+
+img:hover{
+    transform: scale(1.2);
+    opacity: 100%;
+    box-shadow: 1px 1px 6px red;
+}
